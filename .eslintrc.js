@@ -52,6 +52,12 @@ module.exports = {
       env: {
         embertest: true
       }
+    },
+    {
+      files: ['tests/dummy/**/*.js'],
+      rules: {
+         'ember/avoid-leaking-state-in-ember-objects': 'off'
+      }
     }
   ]
 };

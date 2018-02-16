@@ -1,5 +1,5 @@
 /* global Highcharts */
-import { assign, merge } from '@ember/polyfills';
+import { assign } from '@ember/polyfills';
 
 import Component from '@ember/component';
 import { getOwner } from '@ember/application';
@@ -9,8 +9,6 @@ import $ from 'jquery';
 import { setDefaultHighChartOptions } from '../utils/option-loader';
 import { getSeriesMap, getSeriesChanges } from '../utils/chart-data';
 import layout from 'ember-highcharts/templates/components/high-charts';
-
-const assign = assign || merge;
 
 export default Component.extend({
   layout,
