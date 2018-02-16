@@ -1524,8 +1524,13 @@ ember-try-config@^2.0.1:
     semver "^5.1.0"
 
 ember-try@^0.2.9:
+<<<<<<< HEAD
+  version "0.2.15"
+  resolved "https://registry.yarnpkg.com/ember-try/-/ember-try-0.2.15.tgz#559c756058717595babe70068e541625bd5e210a"
+=======
   version "0.2.16"
   resolved "https://registry.yarnpkg.com/ember-try/-/ember-try-0.2.16.tgz#cf7092d8a8fea9701d7faa73cbdbff37a8ada330"
+>>>>>>> 1503faf2837689d3d75ab1939d905a13973286b0
   dependencies:
     chalk "^1.0.0"
     cli-table2 "^0.2.0"
@@ -2294,9 +2299,15 @@ heimdalljs@^0.2.0, heimdalljs@^0.2.1, heimdalljs@^0.2.3:
   dependencies:
     rsvp "~3.2.1"
 
+<<<<<<< HEAD
+highcharts@^4.2.4:
+  version "4.2.7"
+  resolved "https://registry.yarnpkg.com/highcharts/-/highcharts-4.2.7.tgz#45cbed8e99c9c042e95f9c51076726496f686862"
+=======
 highcharts@^5.0.12:
   version "5.0.12"
   resolved "https://registry.yarnpkg.com/highcharts/-/highcharts-5.0.12.tgz#f73b970fe5c7f04100220b64aa7bd7fb019d11e2"
+>>>>>>> 1503faf2837689d3d75ab1939d905a13973286b0
 
 home-or-tmp@^1.0.0:
   version "1.0.0"
