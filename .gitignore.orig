@@ -16,10 +16,14 @@
 npm-debug.log*
 yarn-error.log
 testem.log
+<<<<<<< HEAD
 gh-pages
 
 .DS_Store
+=======
+
 # ember-try
 .node_modules.ember-try/
 bower.json.ember-try
 package.json.ember-try
+>>>>>>> 26cbc1d... message

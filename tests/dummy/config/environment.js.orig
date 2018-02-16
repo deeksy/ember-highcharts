@@ -45,7 +45,11 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
+<<<<<<< HEAD
     ENV.rootURL = '/ember-highcharts/';
+=======
+    // here you can enable a production-specific feature
+>>>>>>> 26cbc1d... message
   }
 
   return ENV;

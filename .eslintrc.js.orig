@@ -4,17 +4,27 @@ module.exports = {
     ecmaVersion: 2017,
     sourceType: 'module'
   },
+<<<<<<< HEAD
+  extends: [
+    'eslint:recommended',
+    'plugin:ember-suave/recommended'
+=======
   plugins: [
     'ember'
   ],
   extends: [
     'eslint:recommended',
     'plugin:ember/recommended'
+>>>>>>> 26cbc1d... message
   ],
   env: {
-    browser: true
+    'browser': true
   },
   rules: {
+<<<<<<< HEAD
+    'ember-suave/no-direct-property-access': 'off'
+  }
+=======
   },
   overrides: [
     // node files
@@ -54,4 +64,5 @@ module.exports = {
       }
     }
   ]
+>>>>>>> 26cbc1d... message
 };

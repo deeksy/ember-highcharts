@@ -1,8 +1,35 @@
-/* eslint-env node */
 module.exports = {
   scenarios: [
     {
+<<<<<<< HEAD
+      name: 'ember-1.13',
+      bower: {
+        dependencies: {
+          'ember': '~1.13.0'
+        },
+        resolutions: {
+          'ember': '~1.13.0'
+        }
+      },
+      npm: {
+        devDependencies: {
+          'ember-source': null
+        }
+      }
+    },
+    {
+      name: 'ember-lts-2.4',
+      bower: {
+        dependencies: {
+          'ember': 'components/ember#lts-2-4'
+        },
+        resolutions: {
+          'ember': 'lts-2-4'
+        }
+      },
+=======
       name: 'ember-lts-2.12',
+>>>>>>> 26cbc1d... message
       npm: {
         devDependencies: {
           'ember-source': '~2.12.0'
